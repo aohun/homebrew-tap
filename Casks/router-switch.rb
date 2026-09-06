@@ -1,9 +1,9 @@
 cask "router-switch" do
   arch arm: "aarch64-apple-darwin", intel: "x86_64-apple-darwin"
 
-  version "0.1.4"
-  sha256 arm:   "47108087ebc4bf1b1312f7e30967fe3e93a34351c030f78ad97eb7f2bf76a147",
-         intel: "93fff8fcb0b18c39b7529a558aed8a5294005ba8129e383d971c31520109b5dd"
+  version "0.1.5"
+  sha256 arm:   "603ef31433fb42baca5785dd03860d1b88a6923b8f1920ff78a1cd9a7aedfa90",
+         intel: "4f6e1007938d96a54f2ba40978f1688b49463643533f410116240dff84d12a14"
 
   url "https://github.com/aohun/router-switch/releases/download/v#{version}/Router-Switch-#{version}-#{arch}.dmg",
       verified: "github.com/aohun/router-switch/"
